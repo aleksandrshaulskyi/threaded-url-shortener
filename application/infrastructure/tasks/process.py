@@ -1,5 +1,4 @@
 from threading import get_native_id
-from time import sleep
 from urllib.parse import urlparse
 
 from infrastructure.enums import Procedure
@@ -20,7 +19,6 @@ def process(user_input: str) -> str:
 
     It also validates the input.
     """
-    sleep(4)
     os_thread_id = get_native_id()
 
     base_logger.info(f'Your task will be processed in the thread with ID {os_thread_id}')
