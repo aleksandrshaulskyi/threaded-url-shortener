@@ -23,7 +23,7 @@ class InMemoryRepository(InMemoryRepositoryPort):
         structure (in case the OS would take control from a thread that is in the process of dictionary modification).
         """
         self.links = {}
-        self.limit = 2
+        self.limit = 100
         self.count = 0
         self.lock = Lock()
 
