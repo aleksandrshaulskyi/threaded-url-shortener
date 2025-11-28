@@ -6,7 +6,7 @@ A simple url-shortener service written in clean architecture using free-threaded
 
 With 3.14 Python released in october 2025, it was interesting for me to get my hands on the new version.
 
-I do understand that such task does not require any computational resources at all and it would be hard
+I do understand that such task does not require any significant computational resources at all and it would be hard
 to notice the difference, but still, it was a fun and in fact quite educational process that helped me
 to find out few new details about threading and it's implementation in Python.
 
