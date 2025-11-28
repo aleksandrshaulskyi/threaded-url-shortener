@@ -1,0 +1,1 @@
+from interface_adapters.outgoing_dtos.outgoing_link import OutgoingLinkDTO

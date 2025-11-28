@@ -1,0 +1,1 @@
+from infrastructure.flags.storing_allowed import storing_allowed

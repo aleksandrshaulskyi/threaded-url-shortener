@@ -1,0 +1,1 @@
+from infrastructure.callbacks.shortening_callback import shortening_callback
