@@ -20,7 +20,7 @@ Basically supports 2 features.
 - Retrieving the full versions of such urls by their shortened counterparts.
 
 The capacity of the storage is artificially limited in order to test and demonstrate
-the importance of lock mechanisms in the free threaded applications.
+the importance of lock and flagging mechanisms in the free threaded applications.
 
 ## Test it yourself.
 
